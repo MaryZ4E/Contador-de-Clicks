@@ -1,0 +1,47 @@
+/* Estilo para todos los elementos del documento */
+* {
+  padding: 0; /* Elimina el relleno interior de todos los elementos */
+  margin: 0; /* Elimina los márgenes de todos los elementos */
+  box-sizing: border-box; /* Hace que el tamaño total de un elemento incluya el relleno y el borde, pero no el margen */
+}
+
+/* Estilos para el elemento html y body */
+html,
+body {
+  background-color: #1b1b32; /* Establece el color de fondo del html y el body */
+}
+
+/* Estilos para el contenedor principal de la aplicación */
+.App {
+  display: flex; /* Utiliza el modelo de caja flexible para el contenedor principal */
+  flex-wrap: wrap; /* Permite que los elementos secundarios se envuelvan en múltiples líneas */
+  align-items: center; /* Centra los elementos secundarios verticalmente */
+  justify-content: center; /* Centra los elementos secundarios horizontalmente */
+  padding-top: 15px; /* Añade un relleno superior de 15px al contenedor principal */
+  font-family: Lato, sans-serif; /* Establece la fuente para el texto del contenedor principal */
+}
+
+/* Estilos para el contenedor del logo de FreeCodeCamp */
+.freecodecamp-logo-contenedor {
+  width: 100%; /* Establece el ancho del contenedor del logo al 100% del contenedor principal */
+  display: flex; /* Utiliza el modelo de caja flexible para el contenedor del logo */
+  align-items: center; /* Centra los elementos secundarios verticalmente */
+  justify-content: center; /* Centra los elementos secundarios horizontalmente */
+  margin: 20px; /* Añade un margen exterior de 20px alrededor del contenedor del logo */
+}
+
+/* Estilos para el logo de FreeCodeCamp */
+.freecodecamp-logo {
+  height: 50px; /* Establece la altura del logo de FreeCodeCamp en 50px */
+}
+
+/* Estilos para el contenedor principal */
+.contenedor-principal {
+  height: 550px; /* Establece la altura del contenedor principal en 550px */
+  min-width: 600px; /* Establece el ancho mínimo del contenedor principal en 600px */
+  display: flex; /* Utiliza el modelo de caja flexible para el contenedor principal */
+  flex-wrap: wrap; /* Permite que los elementos secundarios se envuelvan en múltiples líneas */
+  flex-direction: column; /* Establece la dirección de flujo de los elementos secundarios en columnas */
+  align-items: center; /* Centra los elementos secundarios verticalmente */
+  justify-content: center; /* Centra los elementos secundarios horizontalmente */
+}

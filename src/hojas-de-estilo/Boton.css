@@ -1,0 +1,28 @@
+/* Estilos para todos los elementos <button> del documento */
+button {
+  width: 250px; /* Establece el ancho del botón en 250px */
+  height: 80px; /* Establece la altura del botón en 80px */
+  font-size: 35px; /* Establece el tamaño de fuente del texto del botón en 35px */
+  font-family: Roboto, sans-serif; /* Establece la fuente del texto del botón */
+  font-weight: bold; /* Establece el peso de la fuente en negrita */
+  color: white; /* Establece el color del texto del botón en blanco */
+  border: 2px solid white; /* Establece un borde sólido de 2px blanco alrededor del botón */
+  border-radius: 15px; /* Establece el radio de borde de 15px para redondear las esquinas del botón */
+  margin: 5px; /* Establece un margen exterior de 5px alrededor del botón */
+  cursor: pointer; /* Cambia el cursor del mouse a una mano cuando se pasa sobre el botón */
+}
+
+/* Estilos cuando se pasa el mouse sobre el botón */
+button:hover {
+  background-color: #00471b; /* Cambia el color de fondo del botón a #00471b cuando se pasa el mouse sobre él */
+}
+
+/* Estilos para los botones con la clase "boton-clic" */
+.boton-clic {
+  background-color: #002ead; /* Establece el color de fondo del botón con la clase "boton-clic" en #002ead */
+}
+
+/* Estilos para los botones con la clase "boton-reiniciar" */
+.boton-reiniciar {
+  background-color: #5a01a7; /* Establece el color de fondo del botón con la clase "boton-reiniciar" en #5a01a7 */
+}

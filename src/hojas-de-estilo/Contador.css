@@ -1,0 +1,13 @@
+/* Estilos para los elementos con la clase CSS 'contador' */
+.contador {
+  min-width: 300px; /* Establece el ancho mínimo del elemento a 300px */
+  height: 300px; /* Establece la altura del elemento a 300px */
+  font-size: 160px; /* Establece el tamaño de fuente del texto dentro del elemento a 160px */
+  padding: 25px; /* Añade un relleno interior de 25px alrededor del contenido del elemento */
+  color: white; /* Establece el color del texto dentro del elemento en blanco */
+  display: flex; /* Utiliza el modelo de caja flexible para el elemento */
+  align-items: center; /* Centra los elementos secundarios verticalmente */
+  justify-content: center; /* Centra los elementos secundarios horizontalmente */
+  border: 8px solid white; /* Establece un borde sólido de 8px blanco alrededor del elemento */
+  margin-bottom: 15px; /* Añade un margen inferior de 15px al elemento */
+}
